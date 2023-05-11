@@ -2,7 +2,7 @@
 .expo
 __generated__
 web-build
-dist
+/dist
 
 # macOS
 .DS_Store
