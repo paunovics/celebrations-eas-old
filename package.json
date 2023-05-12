@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
-
     "dev-build-all": "eas build --profile development --platform all --local",
     "dev-build-andriod": "eas build --profile development --platform android --local",
     "dev-build-ios": "eas build --profile development --platform ios --local",
-
     "submit-all": "eas submit --platform all",
     "submit-android": "eas submit --platform android",
     "submit-ios": "eas submit --platform ios",
-
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
@@ -30,8 +27,11 @@
     "expo-status-bar": "~1.4.4",
     "expo-system-ui": "~2.2.1",
     "expo-updates": "~0.16.4",
+    "firebase": "^9.21.0",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.7",
+    "typescript": "^4.9.4",
+    "@types/react": "~18.0.27"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
