@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {Button, StyleSheet, Text, View} from 'react-native';
 import {login} from "./firebase/firestore/userOperations";
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
+      <Button title={'Hej'} onPress={() => console.log("JEEEEK")} />
     </View>
   );
 }
