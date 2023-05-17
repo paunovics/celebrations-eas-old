@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
-    "dev-build-all": "eas build --profile development --platform all --local",
+    "dev-build-all": "eas build --profile development --platform all",
     "dev-build-andriod": "eas build --profile development --platform android --local",
     "dev-build-ios": "eas build --profile development --platform ios --local",
     "sim-build-ios": "eas build --profile development-simulator --platform ios --local",
@@ -23,7 +23,7 @@
     "@react-native-firebase/perf": "^17.5.0",
     "@react-native-firebase/storage": "^17.5.0",
     "@types/react": "~18.0.27",
-    "expo": "~48.0.16",
+    "expo": "~48.0.15",
     "expo-build-properties": "^0.6.0",
     "expo-dev-client": "^2.2.1",
     "expo-splash-screen": "~0.18.2",
